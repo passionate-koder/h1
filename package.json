@@ -1,5 +1,5 @@
 {
-  "name": "hackculture-recreation",
+  "name": "buildora",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start --hostname 0.0.0.0",
     "typecheck": "tsc --noEmit",
-    "inspect": "node scripts/inspect.mjs",
     "test:smoke": "node scripts/smoke.mjs"
   },
   "dependencies": {
@@ -27,9 +26,7 @@
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "cheerio": "^1.1.2",
     "playwright": "^1.55.0",
-    "prettier": "^3.9.9",
     "tailwindcss": "^4.1.0",
     "typescript": "^5.9.2"
   },

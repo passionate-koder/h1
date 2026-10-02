@@ -1,6 +1,6 @@
 .hc-dashboard {
   padding-top: 56px;
-  background: #f8f9fb;
+  background: #f6f5ed;
   min-height: 100vh;
 }
 .hc-dashboard [data-dashboard-sidebar] {
@@ -18,7 +18,7 @@
 }
 .program-record {
   display: flex;
-  background: #f8f9fb;
+  background: #f6f5ed;
 }
 .program-record .program-record-cover {
   position: relative;
@@ -67,8 +67,8 @@
   font-weight: 600;
 }
 .program-pagination {
-  background: #f8f9fb;
-  border: 1px solid #e2e8f0;
+  background: #f6f5ed;
+  border: 1px solid #dedfd2;
   border-radius: 8px;
   padding: 8px 12px;
 }
@@ -94,7 +94,7 @@
 }
 .program-filter-panel {
   padding: 16px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #dedfd2;
   border-radius: 8px;
 }
 .program-records {
@@ -106,7 +106,7 @@
   right: 24px;
   background: #fff;
   padding: 16px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #dedfd2;
   box-shadow: 0 4px 20px #0002;
   z-index: 100;
 }
@@ -130,14 +130,14 @@
 .program-tools input,
 .program-tools button,
 .program-tools select {
-  border: 1px solid #e2e8f0;
+  border: 1px solid #dedfd2;
   border-radius: 8px;
   padding: 10px 14px;
   background: #fff;
 }
 .program-tools button[aria-pressed="true"] {
-  background: #eeedff;
-  color: #4f4bff;
+  background: #edf3e9;
+  color: #21634b;
 }
 .program-records {
   max-width: 1280px;
@@ -150,7 +150,7 @@
   gap: 24px;
 }
 .program-record {
-  border: 1px solid #e2e8f0;
+  border: 1px solid #dedfd2;
   border-radius: 12px;
   overflow: hidden;
   background: #fff;
@@ -177,7 +177,7 @@
   display: block;
   text-align: center;
   border-radius: 7px;
-  background: #4f4bff;
+  background: #21634b;
   color: #fff;
   padding: 10px;
   margin-top: 18px;
@@ -199,7 +199,7 @@
 }
 .program-pagination button {
   padding: 8px 12px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #dedfd2;
   border-radius: 6px;
   margin-left: 10px;
 }
@@ -215,16 +215,16 @@
 .program-table th {
   text-align: left;
   padding: 18px;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 1px solid #dedfd2;
 }
 .program-table a {
-  color: #4f4bff;
+  color: #21634b;
 }
 .program-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .program-record {
-  background: #f8f9fb;
+  background: #f6f5ed;
 }
 .program-records {
   padding-top: 24px;
@@ -292,7 +292,7 @@
     z-index: 60;
     background: white;
     padding: 8px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #dedfd2;
     border-radius: 4px;
   }
 }

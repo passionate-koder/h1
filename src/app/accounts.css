@@ -2,7 +2,7 @@
   display: none !important;
 }
 .hc-nav-current {
-  color: #4f4bff !important;
+  color: #21634b !important;
 }
 .hc-user-control {
   position: relative;
@@ -19,8 +19,8 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: #dbeafe;
-  color: #1d4ed8;
+  background: #dce9da;
+  color: #21634b;
   font-weight: 600;
 }
 .hc-user-menu {
@@ -29,15 +29,15 @@
   top: 46px;
   width: 224px;
   background: white;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #dedfd2;
   border-radius: 8px;
   box-shadow: 0 8px 20px #0002;
   overflow: hidden;
-  color: #374151;
+  color: #35483e;
 }
 .hc-user-menu > div {
   padding: 12px 16px;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #dedfd2;
 }
 .hc-user-menu small,
 .hc-user-menu strong {
@@ -45,7 +45,7 @@
 }
 .hc-user-menu small {
   font-size: 12px;
-  color: #6b7280;
+  color: #647067;
 }
 .hc-user-menu strong {
   font-size: 14px;
@@ -63,17 +63,17 @@
 }
 .hc-user-menu > a:hover,
 .hc-user-menu > button:hover {
-  background: #f3f4f6;
+  background: #f0efe6;
 }
 .hc-user-menu > button {
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #dedfd2;
   color: #ef4444;
 }
 .account-profile-page,
 .account-programs-page,
 .account-registration-page {
-  background: #f9fafb;
-  color: #111827;
+  background: #f6f5ed;
+  color: #192c24;
 }
 .account-profile-page {
   min-height: 100vh;
@@ -90,7 +90,7 @@
 }
 .account-profile-cover {
   height: 136px;
-  background-color: #4f83ed;
+  background-color: #21634b;
   background-image:
     linear-gradient(#ffffff12 1px, transparent 1px),
     linear-gradient(90deg, #ffffff12 1px, transparent 1px);
@@ -113,11 +113,11 @@
   height: 104px;
   border: 4px solid white;
   border-radius: 50%;
-  background: #bfdbfe;
+  background: #bdcdbb;
   display: grid;
   place-items: center;
   font-size: 30px;
-  color: #1e40af;
+  color: #174b38;
   font-weight: 600;
 }
 .account-profile-name {
@@ -134,7 +134,7 @@
   align-items: center;
   gap: 5px;
   font-size: 16px;
-  color: #6b7280;
+  color: #647067;
 }
 .account-profile-identity > a {
   white-space: nowrap;
@@ -153,7 +153,7 @@
   align-items: center;
   gap: 9px;
   padding: 8px 10px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #dedfd2;
   border-radius: 8px;
 }
 .account-fact > span {
@@ -162,8 +162,8 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: #f3f4f6;
-  color: #6b7280;
+  background: #f0efe6;
+  color: #647067;
 }
 .account-fact svg {
   width: 18px;
@@ -174,7 +174,7 @@
   font-size: 12px;
   line-height: 16px;
   font-weight: 400;
-  color: #6b7280;
+  color: #647067;
 }
 .account-fact small {
   display: block;
@@ -188,7 +188,7 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
-  color: #374151;
+  color: #35483e;
   margin: 0 0 16px;
 }
 .account-background > div {
@@ -203,8 +203,8 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: #f3f4f6;
-  color: #4b5563;
+  background: #f0efe6;
+  color: #526157;
   font-size: 16px;
   flex-shrink: 0;
 }
@@ -219,10 +219,10 @@
   align-items: center;
   font-size: 14px;
   line-height: 24px;
-  color: #6b7280;
+  color: #647067;
 }
 .account-profile-section {
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #dedfd2;
   padding: 22px 0;
 }
 .account-section-empty {
@@ -235,12 +235,12 @@
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  background: #f9fafb;
-  border: 1px solid #e5e7eb;
+  background: #f6f5ed;
+  border: 1px solid #dedfd2;
   border-radius: 999px;
   padding: 3px 9px;
   font-size: 12px;
-  color: #374151;
+  color: #35483e;
 }
 .account-skill-list {
   display: flex;
@@ -254,8 +254,8 @@
   gap: 6px;
   padding: 4px 10px;
   border-radius: 20px;
-  background: #eef2ff;
-  color: #4338ca;
+  background: #edf3e9;
+  color: #21634b;
   font-size: 13px;
 }
 .account-settings {
@@ -267,7 +267,7 @@
   gap: 16px;
 }
 .account-settings-box {
-  border: 1px solid #e5e7eb;
+  border: 1px solid #dedfd2;
   border-radius: 8px;
   overflow: hidden;
   align-self: start;
@@ -276,8 +276,8 @@
   font-size: 14px;
   font-weight: 400;
   padding: 10px 12px;
-  background: #f9fafb;
-  border-bottom: 1px solid #e5e7eb;
+  background: #f6f5ed;
+  border-bottom: 1px solid #dedfd2;
 }
 .account-settings-row {
   display: flex;
@@ -294,10 +294,10 @@
 }
 a.account-settings-row:hover,
 button.account-settings-row:hover {
-  background: #f9fafb;
+  background: #f6f5ed;
 }
 .account-row-icon {
-  color: #6b7280;
+  color: #647067;
   flex-shrink: 0;
 }
 .account-row-copy {
@@ -313,7 +313,7 @@ button.account-settings-row:hover {
 .account-row-copy small {
   display: block;
   font-size: 12px;
-  color: #6b7280;
+  color: #647067;
   line-height: 18px;
   overflow-wrap: anywhere;
 }
@@ -338,28 +338,28 @@ button.account-settings-row:hover {
 }
 .account-contact-details small {
   font-size: 12px;
-  color: #6b7280;
+  color: #647067;
 }
 .account-contact-details a {
-  color: #4f4bff;
+  color: #21634b;
   margin-bottom: 12px;
 }
 .account-resume-link {
   display: flex;
   gap: 8px;
-  color: #4f4bff;
+  color: #21634b;
   font-size: 14px;
 }
 .account-footer {
   min-height: 60px;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #dedfd2;
   padding: 18px 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  background: #f9fafb;
-  color: #374151;
+  background: #f6f5ed;
+  color: #35483e;
   font-size: 14px;
 }
 .account-footer > div {
@@ -368,7 +368,7 @@ button.account-settings-row:hover {
   gap: 18px;
 }
 .account-footer p a {
-  color: #4f4bff;
+  color: #21634b;
 }
 .account-editor-page {
   min-height: calc(100vh - 60px);
@@ -376,8 +376,8 @@ button.account-settings-row:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f3f4f6;
-  color: #111827;
+  background: #f0efe6;
+  color: #192c24;
 }
 .account-editor {
   width: 100%;
@@ -385,17 +385,17 @@ button.account-settings-row:hover {
   display: grid;
   grid-template-columns: 1fr 2fr;
   background: white;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #dedfd2;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 5px #0000000c;
 }
 .account-editor > aside {
-  border-right: 1px solid #e5e7eb;
+  border-right: 1px solid #dedfd2;
 }
 .account-editor > aside header {
   padding: 16px;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #dedfd2;
 }
 .account-editor > aside h1 {
   font-size: 18px;
@@ -404,7 +404,7 @@ button.account-settings-row:hover {
 }
 .account-editor > aside p {
   font-size: 14px;
-  color: #6b7280;
+  color: #647067;
   line-height: 24px;
 }
 .account-editor nav {
@@ -424,9 +424,9 @@ button.account-settings-row:hover {
   font-size: 14px;
 }
 .account-editor nav button.active {
-  background: #4f4bff;
+  background: #21634b;
   color: white;
-  box-shadow: 0 2px 4px #4f4bff33;
+  box-shadow: 0 2px 4px #21634b33;
 }
 .account-editor form {
   position: relative;
@@ -436,7 +436,7 @@ button.account-settings-row:hover {
   position: absolute;
   right: 16px;
   top: 16px;
-  color: #6b7280;
+  color: #647067;
 }
 .account-editor form h2 {
   font-size: 20px;
@@ -445,7 +445,7 @@ button.account-settings-row:hover {
 }
 .account-editor-description {
   font-size: 14px;
-  color: #6b7280;
+  color: #647067;
   line-height: 22px;
   margin: 5px 0 30px;
 }
@@ -456,7 +456,7 @@ button.account-settings-row:hover {
 }
 .account-field {
   font-size: 14px;
-  color: #374151;
+  color: #35483e;
   display: block;
   min-width: 0;
 }
@@ -479,12 +479,12 @@ button.account-settings-row:hover {
   display: block;
   width: 100%;
   height: 44px;
-  border: 1px solid #d1d5db;
+  border: 1px solid #c6cdbd;
   border-radius: 8px;
   padding: 10px 13px;
-  background: #f9fafb;
+  background: #f6f5ed;
   font-size: 14px;
-  color: #374151;
+  color: #35483e;
   margin-top: 8px;
 }
 .account-field > div > input {
@@ -492,7 +492,7 @@ button.account-settings-row:hover {
   margin-top: 0;
 }
 .account-field input:disabled {
-  background: #f3f4f6;
+  background: #f0efe6;
   color: #9ca3af;
 }
 .account-field input::placeholder,
@@ -509,7 +509,7 @@ button.account-settings-row:hover {
 .account-editor-actions {
   margin-top: 32px;
   padding-top: 24px;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #dedfd2;
   display: flex;
   justify-content: space-between;
 }
@@ -517,7 +517,7 @@ button.account-settings-row:hover {
   margin-top: 24px;
 }
 .account-upload-label > small {
-  color: #6b7280;
+  color: #647067;
 }
 .account-upload {
   position: relative;
@@ -528,15 +528,15 @@ button.account-settings-row:hover {
   justify-content: center;
   min-height: 120px;
   margin-top: 8px;
-  border: 2px dashed #d1d5db;
+  border: 2px dashed #c6cdbd;
   border-radius: 8px;
-  color: #6b7280;
+  color: #647067;
   background: #fafbfc;
   text-align: center;
   padding: 24px;
 }
 .account-upload b {
-  color: #4f4bff;
+  color: #21634b;
   font-weight: 500;
 }
 .account-upload input[type="file"] {
@@ -563,7 +563,7 @@ button.account-settings-row:hover {
   gap: 20px;
   align-items: center;
   padding: 20px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #dedfd2;
   border-radius: 8px;
 }
 .account-preferences strong {
@@ -572,7 +572,7 @@ button.account-settings-row:hover {
 }
 .account-preferences p {
   font-size: 14px;
-  color: #6b7280;
+  color: #647067;
   line-height: 22px;
   margin-top: 5px;
 }
@@ -581,13 +581,13 @@ button.account-settings-row:hover {
   flex-shrink: 0;
   width: 44px;
   height: 24px;
-  background: #d1d5db;
+  background: #c6cdbd;
   border-radius: 20px;
   position: relative;
   cursor: pointer;
 }
 .account-preferences input:checked {
-  background: #4f4bff;
+  background: #21634b;
 }
 .account-preferences input:after {
   content: "";
@@ -618,7 +618,7 @@ button.account-settings-row:hover {
 }
 .account-programs-page > p {
   font-size: 16px;
-  color: #6b7280;
+  color: #647067;
   margin-top: 8px;
 }
 .account-no-events {
@@ -638,7 +638,7 @@ button.account-settings-row:hover {
   margin-bottom: 8px;
 }
 .account-no-events p {
-  color: #6b7280;
+  color: #647067;
   margin-bottom: 24px;
 }
 .account-registration-list {
@@ -649,7 +649,7 @@ button.account-settings-row:hover {
 }
 .account-registration-list article {
   padding: 24px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #dedfd2;
   border-radius: 12px;
   background: white;
 }
@@ -660,7 +660,7 @@ button.account-settings-row:hover {
 }
 .account-registration-list p {
   font-size: 14px;
-  color: #6b7280;
+  color: #647067;
   margin-bottom: 18px;
 }
 .account-registration-page {
@@ -728,14 +728,14 @@ button.account-settings-row:hover {
 .account-progress i {
   display: block;
   height: 100%;
-  background: #74eacb;
+  background: #edc4a6;
 }
 .account-progress small {
   font-size: 12px;
 }
 .account-registration-page > form {
   background: white;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #dedfd2;
   border-radius: 8px;
   padding: 32px;
 }
@@ -756,12 +756,12 @@ button.account-settings-row:hover {
 }
 .account-registration-check a,
 .account-question-description a {
-  color: #2563eb;
+  color: #21634b;
   text-decoration: underline;
 }
 .account-registration-page hr {
   border: 0;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #dedfd2;
   margin: 28px 0;
 }
 .account-question {
@@ -794,7 +794,7 @@ button.account-settings-row:hover {
 .account-question > select,
 .account-question > textarea {
   width: 100%;
-  border: 1px solid #d1d5db;
+  border: 1px solid #c6cdbd;
   padding: 11px 14px;
   height: 46px;
   border-radius: 7px;
@@ -808,19 +808,19 @@ button.account-settings-row:hover {
 .account-question-description {
   font-size: 14px;
   line-height: 21px;
-  color: #6b7280;
+  color: #647067;
   margin: 0 0 12px;
   white-space: pre-line;
   overflow-wrap: anywhere;
 }
 .account-question-description button {
-  color: #2563eb;
+  color: #21634b;
 }
 .account-question .account-upload {
   min-height: 168px;
 }
 .account-question .account-upload > svg {
-  background: #eaf2ff;
+  background: #edf3e9;
   color: var(--event-color);
   padding: 12px;
   width: 52px;
@@ -914,7 +914,7 @@ button.account-settings-row:hover {
   }
   .account-editor > aside {
     border-right: 0;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #dedfd2;
   }
   .account-editor nav {
     flex-direction: row;
@@ -998,19 +998,19 @@ button.account-settings-row:hover {
   }
 }
 .hc-avatar-trigger > span {
-  background: #4f4bff;
+  background: #21634b;
   color: white;
-  border: 2px solid #e0e7ff;
+  border: 2px solid #dce9da;
   font-size: 14px;
   width: 40px;
   height: 40px;
 }
 .account-profile-cover {
-  background-color: #4f4bff;
+  background-color: #21634b;
   background-image:
     linear-gradient(#ffffff14 1px, transparent 1px),
     linear-gradient(90deg, #ffffff14 1px, transparent 1px),
-    linear-gradient(120deg, #4f4bff, #325cf4);
+    linear-gradient(120deg, #21634b, #21634b);
   background-size:
     30px 30px,
     30px 30px,
@@ -1024,17 +1024,17 @@ button.account-settings-row:hover {
 }
 .account-fact strong {
   font-size: 14px;
-  color: #111827;
+  color: #192c24;
   line-height: 20px;
 }
 .account-fact small {
-  color: #4b5563;
+  color: #526157;
 }
 .account-profile-body h2 {
-  color: #6b7280;
+  color: #647067;
 }
 .account-add-pill {
-  color: #4f4bff;
+  color: #21634b;
   font-size: 14px;
   background: white;
 }
@@ -1042,7 +1042,7 @@ button.account-settings-row:hover {
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: #f3f4f6;
+  background: #f0efe6;
   display: grid;
   place-items: center;
 }
@@ -1057,7 +1057,7 @@ button.account-settings-row:hover {
 }
 .account-settings-box > h3 {
   padding: 10px 16px;
-  color: #6b7280;
+  color: #647067;
 }
 .account-editor nav button {
   font-size: 16px;
@@ -1085,11 +1085,11 @@ button.account-settings-row:hover {
 .account-programs-hero {
   padding: 32px 20px 48px;
   text-align: center;
-  background-color: #4543df;
+  background-color: #174b38;
   background-image:
     linear-gradient(#ffffff14 1px, transparent 1px),
     linear-gradient(90deg, #ffffff14 1px, transparent 1px),
-    linear-gradient(110deg, #4f4bff, #3b42c9);
+    linear-gradient(110deg, #21634b, #174b38);
   background-size:
     30px 30px,
     30px 30px,
@@ -1099,7 +1099,7 @@ button.account-settings-row:hover {
   font-family: Arial, sans-serif;
   font-size: 40px;
   line-height: 48px;
-  color: #f5efa7;
+  color: #f4dfb5;
   font-weight: 600;
 }
 .account-programs-hero p {
@@ -1114,7 +1114,7 @@ button.account-settings-row:hover {
 .account-no-events {
   max-width: 1216px;
   margin: 24px auto 0;
-  border: 1px dashed #e5e7eb;
+  border: 1px dashed #dedfd2;
   border-radius: 12px;
   padding: 48px 16px;
   background: #fdfdfd;
@@ -1124,7 +1124,7 @@ button.account-settings-row:hover {
   height: 64px;
   padding: 18px;
   border-radius: 50%;
-  background: #f3f4f6;
+  background: #f0efe6;
   margin-bottom: 16px;
 }
 .account-no-events h2 {
@@ -1173,8 +1173,8 @@ button.account-settings-row:hover {
 }
 .account-select > button {
   margin-top: 8px;
-  border: 1px solid #d1d5db;
-  background: #f9fafb;
+  border: 1px solid #c6cdbd;
+  background: #f6f5ed;
   border-radius: 7px;
   min-height: 44px;
   padding: 10px 9px;
@@ -1185,7 +1185,7 @@ button.account-settings-row:hover {
   text-align: left;
 }
 .account-select > button[aria-expanded="true"] {
-  border-color: #4f4bff;
+  border-color: #21634b;
 }
 .account-field.account-select > .account-select-options {
   position: absolute;
@@ -1197,7 +1197,7 @@ button.account-settings-row:hover {
   overflow: auto;
   z-index: 30;
   background: white;
-  border: 1px solid #d1d5db;
+  border: 1px solid #c6cdbd;
   box-shadow: 0 8px 15px #0002;
   border-radius: 8px;
 }
@@ -1206,16 +1206,16 @@ button.account-settings-row:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #111827;
+  color: #192c24;
   width: 100%;
   padding: 10px 12px;
-  border-bottom: 1px solid #f3f4f6;
+  border-bottom: 1px solid #f0efe6;
   text-align: left;
   font-size: 16px;
 }
 .account-select-options > button:hover,
 .account-select-options > button[aria-selected="true"] {
-  background: #eff6ff;
+  background: #f1f4eb;
 }
 .account-field .account-select-validation {
   position: absolute;
@@ -1267,22 +1267,22 @@ button.account-settings-row:hover {
     height: 30px;
     flex: 0 0 30px;
     padding: 6px;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #dedfd2;
     border-radius: 50%;
-    color: #6b7280;
+    color: #647067;
   }
   .account-editor nav button:not(:last-child):after {
     content: "";
     position: absolute;
     width: 12px;
     height: 1px;
-    background: #d1d5db;
+    background: #c6cdbd;
     left: 35px;
     top: 14px;
   }
   .account-editor nav button.active {
     color: white;
-    border-color: #4f4bff;
+    border-color: #21634b;
     box-shadow: none;
   }
   .account-editor nav button span {

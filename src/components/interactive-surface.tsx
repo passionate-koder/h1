@@ -82,11 +82,7 @@ export function InteractiveSurface({ children }: { children: ReactNode }) {
       return;
     }
     if (/^Book ?a? ?Call$/i.test(label)) {
-      window.open(
-        "https://calendly.com/soham-hackculture/30min",
-        "_blank",
-        "noopener,noreferrer",
-      );
+      router.push("/host");
       return;
     }
     if (ctas.test(label)) {
@@ -177,9 +173,9 @@ export function InteractiveSurface({ children }: { children: ReactNode }) {
           .replace(/;/g, "\\;");
       const blob = new Blob(
         [
-          "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//HackCulture Recreation//Programs//EN\r\nBEGIN:VEVENT\r\nUID:" +
+          "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Buildora//Programs//EN\r\nBEGIN:VEVENT\r\nUID:" +
             program.slug +
-            "@hackculture.local\r\nDTSTAMP:" +
+            "@Buildora.local\r\nDTSTAMP:" +
             stamp(new Date().toISOString()) +
             "\r\nDTSTART:" +
             stamp(program.start) +
@@ -196,7 +192,7 @@ export function InteractiveSurface({ children }: { children: ReactNode }) {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = "hackculture-event.ics";
+      a.download = "buildora-event.ics";
       a.click();
       URL.revokeObjectURL(url);
       return;

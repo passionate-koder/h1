@@ -111,6 +111,8 @@ await Promise.all(
         });
         if (response.status() !== 200)
           failures.push([r.route, response.status()]);
+        // App Router can stream the loading shell before the page content arrives.
+        await tab.locator("h1,h2").first().waitFor({ state: "attached" });
         if ((await tab.locator("h1,h2").count()) === 0)
           failures.push([r.route, "missing headings"]);
       } catch (e) {

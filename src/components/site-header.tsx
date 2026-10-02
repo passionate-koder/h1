@@ -47,8 +47,8 @@ export function SiteHeader() {
       className={`hc-header ${transparent ? "hc-header-light" : ""} ${user?'hc-header-auth':''}`}
     >
       <nav className="hc-nav" aria-label="Main navigation">
-        <Link href="/" className="hc-brand" aria-label="HackCulture home">
-          <img src="/brand.png" alt="HackCulture" />
+        <Link href="/" className="hc-brand" aria-label="Buildora home">
+          <img src="/brand.svg" alt="Buildora" />
         </Link>
         <div className="hc-desktop-nav">
           {user?<><Link href="/programs" className={pathname==='/programs'?'hc-nav-current':''}>All Programs</Link><Link href="/profile" className={pathname==='/profile'?'hc-nav-current':''}>Profile</Link><Link href="/my-events" className={pathname.startsWith('/my-events')?'hc-nav-current':''}>My Programs</Link></>:<>
@@ -105,7 +105,7 @@ export function SiteHeader() {
             {open === "involved" && (
               <div className="hc-small-menu" id="involved-menu">
                 <a
-                  href="https://calendly.com/soham-hackculture/30min"
+                  href="/host"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -113,7 +113,7 @@ export function SiteHeader() {
                 </a>
                 <Link href="/host">Sales Inquiry</Link>
                 <a
-                  href="https://linktr.ee/HackCulture"
+                  href="/programs"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -172,14 +172,14 @@ export function SiteHeader() {
           {open === "involved" && (
             <div>
               <a
-                href="https://calendly.com/soham-hackculture/30min"
+                href="/host"
                 target="_blank"
                 rel="noreferrer"
               >
                 Book a Call
               </a>
               <Link href="/host">Sales Inquiry</Link>
-              <a href="https://linktr.ee/HackCulture">Join Ecosystem</a>
+              <a href="/programs">Join Ecosystem</a>
             </div>
           )}
           <Link href="/our-clientele">Our Clients</Link>

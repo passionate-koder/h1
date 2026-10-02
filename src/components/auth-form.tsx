@@ -59,7 +59,7 @@ export function AuthForm({
         </h1>
         <p className="hc-auth-subtitle">
           {mode === "signin"
-            ? "Sign in to access your HackCulture account"
+            ? "Sign in to access your Buildora account"
             : mode === "signup"
               ? "Create your account to unlock new opportunities"
               : "Enter your email to receive a password reset link"}

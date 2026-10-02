@@ -392,7 +392,7 @@ export function ProfilePage({
           </p>
           <div className="account-contact-details">
             <small>EMAIL</small>
-            <a href="mailto:support@hackculture.in">support@hackculture.in</a>
+            <a href="/host">Buildora support</a>
             <small>PHONE</small>
             <a href="tel:+918121736459">+91 81217 36459</a>
           </div>
